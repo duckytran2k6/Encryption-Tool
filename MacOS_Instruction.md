@@ -1,44 +1,44 @@
-# 📦 **Welcome to the installation guide for QuackyENC!**
+# **Welcome to the installation guide for QuackyENC!**
 
 ## _Please follow these steps to install and run the tool on macOS._
 
-### 🔒 **Security Notice:**
-* 🔓 **Open Source** — QuackyENC is fully open-source, you can view the source code at [https://github.com/duckytran2k6/CLI_QuackyENC].
-* 🛡️ **No Extra Privileges Needed** — Running QuackyENC does not require root or administrative privileges. Adding QuackyENC to your system PATH is optional for convenience -> See the [Optional](https://github.com/duckytran2k6/CLI_QuackyENC/blob/1.1.1/MacOS_Instruction.md#%EF%B8%8F-optional-add-quackyenc-to-the-system-path) section for more information.
-* 🔑 **Verify File Integrity** — Check your downloaded file against the published SHA-256 checksum and run the following command:
+### **Security Notice:**
+* **Open Source**: QuackyENC is fully open-source, you can view the source code at [https://github.com/duckytran2k6/CLI_QuackyENC].
+* **No Extra Privileges Needed**: Running QuackyENC does not require root or administrative privileges. Adding QuackyENC to your system PATH is optional for convenience -> See the [Optional](https://github.com/duckytran2k6/CLI_QuackyENC/blob/1.1.1/MacOS_Instruction.md#%EF%B8%8F-optional-add-quackyenc-to-the-system-path) section for more information.
+* **Verify File Integrity**: Check your downloaded file against the published SHA-256 checksum and run the following command:
   - `shasum -a 256 thefilename.dmg`.
   - The command will output a hash code which can be used to compare.
   - If the hash code from the output does not matched with the Sha-256 checksums, please visit [SECURITY](SECURITY.md) page for more information.
 
 
-### ✅ **System Requirements:**
+### **System Requirements:**
 - macOS 12.0 Monterey or newer.
 - Intel or Apple Silicon (M1/M2) CPU.
 - Stable internet connection (for downloading and verifying file if needed).
 
-### 📥 **Step 1: Download the Tool's zip folder**
+### **Step 1: Download the Tool's zip folder**
 - Download the latest zip folder from the **[GitHub Releases](https://github.com/duckytran2k6/CLI_QuackyENC/releases)** page.
 - Choose the latest version.
 - Under the **Assets** section, download the **.dmg** file.
 
-### 🖱️ **Step 2: Install the Tool**
+### **Step 2: Install the Tool**
 1. Locate the **QuackyENC-1.0.0.dmg** file.
 2. Double-click to mount it.
 3. In the window that appears, drag the QuackyENC icon into the Application folder.
 4. Eject the mounted disk image by dragging it to Trash or right-clicking → Eject.
 
-💡 _Note: The first time you run the tool, macOS Gatekeeper may warn you that it's from an unidentified developer. See the Gatekeeper Bypass section below for further set-up._
+ _Note: The first time you run the tool, macOS Gatekeeper may warn you that it's from an unidentified developer. See the Gatekeeper Bypass section below for further set-up._
 
-### ⚙️ **Step 3: Check the tool functionality:**
+### **Step 3: Check the tool functionality:**
 - After installing the tool, execute these commands:
     1. Open the terminal and change the directory to your tool .app file: cd /Applications/QuackyENC.app/Contents/MacOS
     2. Then run: ./QuackyENC -h
     3. Once you execute the command, you should see a list of available commands of the tool which can be executed in the order: 
 ./QuackyENC [COMMAND] [OPTION]
 
-💡 If you see a "permission denied" error, make it executable: chmod +x QuackyENC
+If you see a "permission denied" error, make it executable: chmod +x QuackyENC
 
-### 🛠 **First Launch Set-up (Bypass Gatekeeper)**
+### **First Launch Set-up (Bypass Gatekeeper)**
 When opening QuackyENC for the first time, macOS may warn:
 “QuackyENC can’t be opened because it is from an unidentified developer.”
 This warning is normal for open-source apps not signed with Apple’s paid Developer ID.
@@ -49,7 +49,7 @@ To run it, please do the following:
 3. You'll see a message about QuackyENC being blocked - click "Open Anyway".
 4. In the confirmation dialog, click "Open" again.
 
-### ⚙️ **Optional: Add QuackyENC to the system PATH**
+### **Optional: Add QuackyENC to the system PATH**
 If you want to run the tool from any Terminal window without changing directories, please execute the following command in your Terminal:
 -   For zsh (default on macOS Catalina and later):
     1. echo 'export PATH="/Applications/QuackyENC.app/Contents/MacOS:$PATH"' >> ~/.zshrc
