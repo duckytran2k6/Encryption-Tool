@@ -1,12 +1,11 @@
-# **Welcome to QuackyENC 🦆,**
-
-📥 This is a very basic open-source multi text files encryption tool where you can encrypt and decrypt fully offline right 
+# **Welcome to QuackyENC,**
+This is a very basic open-source multi text files encryption tool where you can encrypt and decrypt fully offline right 
 on your local OS terminal. The purpose for this project is to learn the process of files encryption and combine it with 
 the CLI features, allowing the users to use the tool in a plain simple way. The reason for that is because QuackyENC focuses 
 on security, simplicity, and flexibility as the program has been modified in order to be able to run and compatible for 
 upload/download files on different OS.
 
-## ✅ **Features:**
+## **Features:**
 ### **This is a list of features of what QuackyENC included with a short description for each of them:**
 
 - #### _**Password-based file encryption:**_ 
@@ -27,7 +26,7 @@ sender and receiver.
 This will generate a random 2048 bits key pair using RSA algorithm including a public key and a private key that can be used to check for
 matching validity between the sender and the receiver. This is required if you are using the **_Key pair-based hybrid method_** as you will need
 to generate the key pair before using the method.
-**❗THE RECEIVER MUST KEEP THE PRIVATE KEY SAFE. DO NOT SHARE THIS, ONLY SHARE THE PUBLIC KEY TO THE SENDER.❗**
+**THE RECEIVER MUST KEEP THE PRIVATE KEY SAFE. DO NOT SHARE THIS, ONLY SHARE THE PUBLIC KEY TO THE SENDER.**
 
 - #### _**Supports multiple files encryption:**_
 QuackyENC allows you to upload up to 20 text files to be encrypted in one session. Although, this comes with some limitations which is available
@@ -41,12 +40,12 @@ decryption.
 The tool, by default, will automatically compress all the files into a final zip file that will automatically download to the user's OS Download folder once
 the process is finished.
 
-## 🖥️ **Supported OS:**
+## **Supported OS:**
 - Windows
 - macOS
 - Linux
 
-## ❓ **For more info:** 
+## **For more info:** 
 ### **_Download:_** 
 - Click [here](Windows_Instruction.md) for more info on Windows installation.
 - Click [here](MacOS_Instruction.md) for more info on macOS installation.
