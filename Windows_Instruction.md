@@ -5,7 +5,7 @@
 ### **Security Notice:**
 *  **Open Source**: QuackyENC is fully open-source, you can view the source code at [https://github.com/duckytran2k6/CLI_QuackyENC].
 * ️ **No Extra Privileges Needed**: Running QuackyENC does not require root or administrative privileges. Adding QuackyENC to your system PATH is optional for convenience -> See the [Optional](https://github.com/duckytran2k6/CLI_QuackyENC/blob/1.1.1/Windows_Instruction.md#%EF%B8%8F-optional-add-quackyenc-to-the-system-path) section for more information.
-*  **Verify File Integrity** — Check your downloaded file against the published SHA-256 checksum and run the following command:
+*  **Verify File Integrity**: Check your downloaded file against the published SHA-256 checksum and run the following command:
   - Command Prompt: `CertUtil -hashfile thefilename.exe SHA256`.
   - Powershell: `Get-FileHash thefilename.exe -Algorithm SHA256`.
   - The command will output a hash code which can be used to compare.
