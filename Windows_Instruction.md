@@ -1,32 +1,32 @@
-# 📦 **Welcome to the installation guide for QuackyENC!**
+# **Welcome to the installation guide for QuackyENC!**
 
 ## _Please follow these steps to install and run the tool on Windows._
 
-### 🔒 **Security Notice:**
-* 🔓 **Open Source** — QuackyENC is fully open-source, you can view the source code at [https://github.com/duckytran2k6/CLI_QuackyENC].
-* ️🛡️ **No Extra Privileges Needed** — Running QuackyENC does not require root or administrative privileges. Adding QuackyENC to your system PATH is optional for convenience -> See the [Optional](https://github.com/duckytran2k6/CLI_QuackyENC/blob/1.1.1/Windows_Instruction.md#%EF%B8%8F-optional-add-quackyenc-to-the-system-path) section for more information.
-* 🔑 **Verify File Integrity** — Check your downloaded file against the published SHA-256 checksum and run the following command:
+### **Security Notice:**
+*  **Open Source**: QuackyENC is fully open-source, you can view the source code at [https://github.com/duckytran2k6/CLI_QuackyENC].
+* ️ **No Extra Privileges Needed**: Running QuackyENC does not require root or administrative privileges. Adding QuackyENC to your system PATH is optional for convenience -> See the [Optional](https://github.com/duckytran2k6/CLI_QuackyENC/blob/1.1.1/Windows_Instruction.md#%EF%B8%8F-optional-add-quackyenc-to-the-system-path) section for more information.
+*  **Verify File Integrity** — Check your downloaded file against the published SHA-256 checksum and run the following command:
   - Command Prompt: `CertUtil -hashfile thefilename.exe SHA256`.
   - Powershell: `Get-FileHash thefilename.exe -Algorithm SHA256`.
   - The command will output a hash code which can be used to compare.
   - If the hash code from the output does not matched with the Sha-256 checksums, please visit [SECURITY](SECURITY.md) page for more information.
 
-### ✅ **System Requirements:**
+### **System Requirements:**
 - Windows 10 or newer (64-bit).
 - Stable internet connection (for downloading and verifying file if needed).
 
-### 📥 **Step 1: Download the Tool's zip folder**
+### **Step 1: Download the Tool's zip folder**
 - Download the latest zip folder from the **[GitHub Releases](https://github.com/duckytran2k6/CLI_QuackyENC/releases)** page.
 - Choose the latest version.
 - Under the **Assets** section, download the **QuackyENC-1.0.0.exe** file.
 
-### 🖱️ **Step 2: Install the Tool**
+### **Step 2: Install the Tool**
 1. Open the folder explorer and find the **.exe** file.
 2. Double-click to install it.
 3. If Windows SmartScreen appears, select "Run Anyway".
 4. Once installed, check your "Program Files" folder in C drive, and you should see a folder named "QuackyENC" with an .exe file in it.
 
-### ⚙️ **Step 3: Check the tool functionality:**
+### **Step 3: Check the tool functionality:**
 - After installing the tool, execute these commands:
     1. Open the terminal and change the directory to your tool .exe file: cd C:/Program Files/QuackyENC
     2. If you are using **Command Prompts**: QuackyENC.exe -h
@@ -34,7 +34,7 @@
     4. Once you execute the command, you should see a list of available commands of the tool which can be executed in the order:
 [COMMAND] [OPTION]
 
-### ⚙️ **Optional: Add QuackyENC to the system PATH**
+### **Optional: Add QuackyENC to the system PATH**
 If you want to run the tool from any Terminal window without changing directories, please execute the following command in your Terminal:
 1. Open **Start** -> **Search** -> **Environment Variables**.
 2. Select **Edit the system environment variables**.
